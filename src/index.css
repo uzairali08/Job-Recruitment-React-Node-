@@ -1,0 +1,41 @@
+.App{
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+/* .navbarBtn{
+
+  border-radius: 15px;
+background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
+box-shadow:  37px 37px 74px #c4c4ca,
+             -37px -37px 74px #ffffff;
+}
+.navbarBtn:active{
+
+  padding: 0%;
+  border-radius: 15px;
+background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+box-shadow:  37px 37px 74px #c4c4ca,
+             -37px -37px 74px #ffffff;
+}
+.primaryBtn{
+  border: 1px solid black;
+} */
+
+/* .footer{ */
+  /* bottom: 0; */
+  /* position: absolute; */
+  /* width: -webkit-fill-available; */
+/* } */
+
+/* .footerMiddleSection ul{
+  list-style-type: none;
+}
+
+
+.imageContainer{
+  background-image: url("./assets/img.jpg");
+  width: 100%;
+}
+ */
+
+

@@ -1,0 +1,36 @@
+.formContainer{
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 5px #2125296b,
+               -5px -5px 5px #ffffffa6; 
+}
+
+.formBtn{
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 5px #2125296b,
+               -5px -5px 5px #ffffffa6;
+}
+
+.formBtn:hover{
+  background: transparent;
+  box-shadow:  5px 5px 5px #ffffffa6 ,
+               -5px -5px 3px #2125296b;
+}
+
+.formInput{
+  background: transparent;
+  box-shadow:  5px 5px 5px #ffffffa6 ,
+               -2px -2px 5px #2125296b;
+}
+
+.formInput:focus{
+    border: none;
+    background: transparent;
+    box-shadow:  5px 5px 5px #ffffffa6 ,
+                 -1px -1px 2px #2125296b;
+  }
+  

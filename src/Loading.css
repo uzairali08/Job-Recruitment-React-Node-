@@ -1,0 +1,42 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader-spinner {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    border: 4.5px solid #0000;
+    border-radius: 50%;
+    border-color: #dbdcef #0000;
+    animation: spinner-e04l1k 1s infinite linear;
+}
+
+.loader-spinner::before,
+.loader-spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2.2px;
+    border: inherit;
+    border-radius: 50%;
+}
+
+.loader-spinner::before {
+    border-color: #474bff #0000;
+    animation: inherit;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+}
+
+.loader-spinner::after {
+    margin: 8.9px;
+}
+
+@keyframes spinner-e04l1k {
+    100% {
+        transform: rotate(1turn);
+    }
+}

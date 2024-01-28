@@ -1,0 +1,119 @@
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footerUpperSection,
+  .footerBottomSection {
+    display: block;
+  }
+  
+  .footerColumn {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .footerLinksHeader {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 45px;
+    color: #404145;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerLinks {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    /* display: flex; */
+    align-items: center;
+    color: #7A7D85;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerLinks li, a {
+    height: 30px;
+    color: #404145;
+    text-decoration: none;
+  }
+  
+  .footerLogo {
+    border: 2px solid #6D0E9D;
+    border-radius: 5px;
+    padding: 10px;
+    background: #6D0E9D;
+    color: #FFFFFF;
+  }
+  
+  .footerLogoText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #B5B6BA;
+    margin-left: 40px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .footerColumn {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .footerLinksHeader {
+      font-size: 14px;
+      line-height: 30px;
+    }
+    
+    .footerLinks {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    
+    .footerLogoText {
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footerColumn {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    .footerLinksHeader {
+      font-size: 12px;
+      line-height: 25px;
+    }
+    
+    .footerLinks {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    
+    .footerLogoText {
+      display: none;
+    }
+
+    .footerSocialLinks{
+        width: 100%;
+    }
+  }
+  

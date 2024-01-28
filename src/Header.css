@@ -1,0 +1,82 @@
+.headerNotificationBar {
+  background-color: #6D0E9D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notificationBarCloseBtn {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+}
+
+.navBarLinks{
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navBarLinks:active{
+  color:#6D0E9D;
+  font-weight: bold;
+}
+
+.logoH{
+  border: 2px solid #6D0E9D;
+    border-radius: 5px;
+    padding: 10px;
+    background: #6D0E9D;
+}
+
+.profileBtnH{
+  border: 2px solid #6D0E9D;
+    border-radius: 5px;
+    padding: 10px;
+    background: #6D0E9D;
+    color: #FFFFFF;
+}
+
+.profileBtnH:hover{
+  background: #FFFFFF;
+    color: #6D0E9D;
+}
+
+.getHiredBtnH{
+  border: 2px solid #6D0E9D;
+  padding: 10px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  /* width: 120px; */
+}
+
+.getHiredBtnH:hover{
+  background: #6D0E9D;
+  color: #FFFFFF;
+}
+
+.hireTeamBtnH{
+    border: 2px solid #6D0E9D;
+    border-radius: 5px;
+    padding: 10px;
+    background: #6D0E9D;
+    color: #FFFFFF;
+    /* width: 120px; */
+}
+
+.hireTeamBtnH:hover{
+    background: #FFFFFF;
+    color: #6D0E9D;
+}
+
+.logoutBtnH{
+  border: 2px solid #6D0E9D;
+  padding: 10px;
+  border-radius: 5px;
+  background: #FFFFFF;
+}
+
+.logoutBtnH:hover{
+  background: #6D0E9D;
+  color: #FFFFFF;
+}
